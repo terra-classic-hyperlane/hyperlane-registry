@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=../schema.json
+bech32Prefix: terra
+blockExplorers:
+  - apiUrl: https://api.testnet.finder.terraclassic.community
+    family: other
+    name: Terra Testnet Finder
+    url: https://testnet.finder.terraclassic.community
+blocks:
+  confirmations: 1
+  estimateBlockTime: 3
+  reorgPeriod: 1
+chainId: rebel-2
+contractAddressBytes: 32
+displayName: Terra Classic Testnet
+displayNameShort: TC Testnet
+domainId: 1321
+gasPrice:
+  amount: "28325"
+  denom: uluna
+index:
+  from: 1
+isTestnet: true
+logoURI: /chains/terraclassictestnet/logo.svg
+name: terraclassictestnet
+nativeToken:
+  decimals: 6
+  denom: uluna
+  name: Luna Classic
+  symbol: LUNC
+protocol: cosmos
+rpcUrls:
+  - http: https://terra-classic-testnet-rpc.publicnode.com
+slip44: 330
+technicalStack: other
