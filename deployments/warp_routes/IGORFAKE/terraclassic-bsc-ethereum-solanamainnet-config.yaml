@@ -36,3 +36,30 @@ tokens:
     name: IGORFAKE
     standard: SealevelHypSynthetic
     symbol: IGORFAKE
+options:
+  interchainFeeConstants:
+    - origin: terraclassic
+      destination: bsc
+      amount: 99000000
+      addressOrDenom: uluna
+    - origin: terraclassic
+      destination: ethereum
+      amount: 113000000
+      addressOrDenom: uluna
+    - origin: terraclassic
+      destination: solanamainnet
+      amount: 11500000
+      addressOrDenom: uluna
+  localFeeConstants:
+    - origin: terraclassic
+      destination: bsc
+      amount: 283215
+      addressOrDenom: uluna
+    - origin: terraclassic
+      destination: ethereum
+      amount: 283215
+      addressOrDenom: uluna
+    - origin: terraclassic
+      destination: solanamainnet
+      amount: 283215
+      addressOrDenom: uluna
