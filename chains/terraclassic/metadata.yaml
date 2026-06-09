@@ -13,7 +13,7 @@ chainId: columbus-5
 contractAddressBytes: 32
 displayName: Terra Classic
 displayNameShort: Terra Classic
-domainId: 1325
+domainId: 132556
 gasPrice:
   amount: "28325"
   denom: uluna

@@ -13,7 +13,7 @@ chainId: rebel-2
 contractAddressBytes: 32
 displayName: Terra Classic Testnet
 displayNameShort: TC Testnet
-domainId: 1321
+domainId: 1325
 gasPrice:
   amount: "28325"
   denom: uluna
