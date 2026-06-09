@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 tokens:
-  - addressOrDenom: terra1m5ktcghalv0tlj0zzx2kt6u8adnuslwd449ml55uam57s0eclyssv634a4
+  - addressOrDenom: terra1wr7krp8lpfddpzxfkxvmhfnxd06vkz34e7f0tk2vyau36j3d4pvs6pjpel
     chainName: terraclassic
     collateralAddressOrDenom: terra1lpkaaqjaq8zfwktge3vy0zg46nxxsynsge2wxa7addpweu2w6gmsy3lhkr
     connections:
@@ -14,7 +14,7 @@ tokens:
   - addressOrDenom: "0x3605d8946fC6f5a75D89D92173100F59743b5318"
     chainName: bsc
     connections:
-      - token: cosmos|terraclassic|terra1m5ktcghalv0tlj0zzx2kt6u8adnuslwd449ml55uam57s0eclyssv634a4
+      - token: cosmos|terraclassic|terra1wr7krp8lpfddpzxfkxvmhfnxd06vkz34e7f0tk2vyau36j3d4pvs6pjpel
     decimals: 6
     name: IGORFAKE
     standard: EvmHypSynthetic
@@ -22,7 +22,7 @@ tokens:
   - addressOrDenom: "0xA687a4C4Ca49795999b36fDC8A18D1ddD63EdfB5"
     chainName: ethereum
     connections:
-      - token: cosmos|terraclassic|terra1m5ktcghalv0tlj0zzx2kt6u8adnuslwd449ml55uam57s0eclyssv634a4
+      - token: cosmos|terraclassic|terra1wr7krp8lpfddpzxfkxvmhfnxd06vkz34e7f0tk2vyau36j3d4pvs6pjpel
     decimals: 6
     name: IGORFAKE
     standard: EvmHypSynthetic
@@ -31,7 +31,7 @@ tokens:
     chainName: solanamainnet
     collateralAddressOrDenom: 5s6DL6pYGxLNXNf1U915BLzLxNkRjnWCzqyzEfXuYDQT
     connections:
-      - token: cosmos|terraclassic|terra1m5ktcghalv0tlj0zzx2kt6u8adnuslwd449ml55uam57s0eclyssv634a4
+      - token: cosmos|terraclassic|terra1wr7krp8lpfddpzxfkxvmhfnxd06vkz34e7f0tk2vyau36j3d4pvs6pjpel
     decimals: 6
     name: IGORFAKE
     standard: SealevelHypSynthetic
