@@ -37,19 +37,9 @@ IGORFAKE/terraclassic-bsc-ethereum-solanamainnet:
       name: "IGORFAKE"
       symbol: "IGORFAKE"
   options:
-    interchainFeeConstants:
-      - origin: "terraclassic"
-        destination: "bsc"
-        amount: 99000000
-        addressOrDenom: "uluna"
-      - origin: "terraclassic"
-        destination: "ethereum"
-        amount: 113000000
-        addressOrDenom: "uluna"
-      - origin: "terraclassic"
-        destination: "solanamainnet"
-        amount: 11500000
-        addressOrDenom: "uluna"
+    # interchainFeeConstants removidas (20/08/2026): a taxa interchain agora é
+    # cotada DINAMICAMENTE no IGP do TC pela UI (quoteTransferRemoteGas custom),
+    # como já acontece em BSC/ETH/Solana — valores fixos envelhecem.
     localFeeConstants:
       - origin: "terraclassic"
         destination: "bsc"
