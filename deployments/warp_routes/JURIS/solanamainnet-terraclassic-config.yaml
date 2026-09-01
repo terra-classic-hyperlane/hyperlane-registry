@@ -1,0 +1,35 @@
+# JURIS warp route: Terra Classic <-> Solana (deployed by Juris Protocol / Fragwuerdig)
+# Verified on-chain 2026-09-01:
+#   TC warp code_id 11389 (official hpl_warp_cw20), collateral = Juris Protocol CW20,
+#   routers enrolled both ways, Solana program wired to the official mailbox,
+#   ISM (4MzF7HCfxuwj4EFHqZSEpvkcZZvv1mF37DP4pDHwR5VQ) and IGP identical to LUNC.
+options:
+  # Interchain fee is quoted DYNAMICALLY from the TC IGP by the UI — do NOT
+  # add interchainFeeConstants (same IGP as the LUNC route). localFeeConstants
+  # = fixed local fee (uluna) charged on the TC origin.
+  localFeeConstants:
+    - addressOrDenom: uluna
+      amount: 283215
+      destination: solanamainnet
+      origin: terraclassic
+tokens:
+  - addressOrDenom: terra1dkr5hngjngneqmfrye2fuppckk34uxuxjes5pqzfu59jvncs27uszw8wj5
+    chainName: terraclassic
+    collateralAddressOrDenom: terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2
+    connections:
+      - token: sealevel|solanamainnet|8pktAA5FdXJta2V1U1xzRz5GBcpqH7gTjfFQirJTpZfm
+    decimals: 6
+    logoURI: /deployments/warp_routes/JURIS/logo.png
+    name: Juris Protocol
+    standard: CwHypCollateral
+    symbol: JURIS
+  - addressOrDenom: 8pktAA5FdXJta2V1U1xzRz5GBcpqH7gTjfFQirJTpZfm
+    chainName: solanamainnet
+    collateralAddressOrDenom: HmKUJLZGTyFbEUX5sDisr8PERHjJRyoAkgZwc2YsbeRr
+    connections:
+      - token: cosmos|terraclassic|terra1dkr5hngjngneqmfrye2fuppckk34uxuxjes5pqzfu59jvncs27uszw8wj5
+    decimals: 6
+    logoURI: /deployments/warp_routes/JURIS/logo.png
+    name: Juris Protocol
+    standard: SealevelHypSynthetic
+    symbol: JURIS
