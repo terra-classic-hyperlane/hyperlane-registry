@@ -1,205 +1,202 @@
+# AUTO-GENERATED; DO NOT EDIT MANUALLY
 LUNC/terraclassictestnet-bsctestnet-sepolia-solanatestnet:
   tokens:
-    - addressOrDenom: "terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml"
-      chainName: "terraclassictestnet"
-      standard: "CwHypCollateral"
-      collateralAddressOrDenom: "uluna"
+    - addressOrDenom: terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml
+      chainName: terraclassictestnet
+      standard: CwHypCollateral
+      collateralAddressOrDenom: uluna
       connections:
-        - token: "ethereum|bsctestnet|0x2144be4477202ba2d50c9a8be3181241878cf7d8"
-        - token: "ethereum|sepolia|0x224a4419D7FA69D3bEbAbce574c7c84B48D829b4"
-        - token: "sealevel|solanatestnet|HNxN3ZSBtD5J2nNF4AATMhuvTWVeHQf18nTtzKtsnkyw"
+        - token: ethereum|bsctestnet|0x2144be4477202ba2d50c9a8be3181241878cf7d8
+        - token: ethereum|sepolia|0x224a4419D7FA69D3bEbAbce574c7c84B48D829b4
+        - token: sealevel|solanatestnet|HNxN3ZSBtD5J2nNF4AATMhuvTWVeHQf18nTtzKtsnkyw
       decimals: 6
-      logoURI: "https://raw.githubusercontent.com/classic-terra/assets/60d34b97178cfdcd77fb87d7deeb7d3ab0ede6ee/icon/svg/LUNC.svg"
-      name: "Luna Classic"
-      symbol: "LUNC"
+      logoURI: https://raw.githubusercontent.com/classic-terra/assets/60d34b97178cfdcd77fb87d7deeb7d3ab0ede6ee/icon/svg/LUNC.svg
+      name: Luna Classic
+      symbol: LUNC
     - addressOrDenom: "0x2144be4477202ba2d50c9a8be3181241878cf7d8"
-      chainName: "bsctestnet"
-      standard: "EvmHypSynthetic"
+      chainName: bsctestnet
+      standard: EvmHypSynthetic
       connections:
-        - token: "cosmos|terraclassictestnet|terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml"
+        - token: cosmos|terraclassictestnet|terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml
       decimals: 6
-      name: "Luna Classic"
-      symbol: "LUNC"
+      name: Luna Classic
+      symbol: LUNC
     - addressOrDenom: "0x224a4419D7FA69D3bEbAbce574c7c84B48D829b4"
-      chainName: "sepolia"
-      standard: "EvmHypSynthetic"
+      chainName: sepolia
+      standard: EvmHypSynthetic
       connections:
-        - token: "cosmos|terraclassictestnet|terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml"
+        - token: cosmos|terraclassictestnet|terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml
       decimals: 6
-      name: "Luna Classic"
-      symbol: "LUNC"
-    - addressOrDenom: "HNxN3ZSBtD5J2nNF4AATMhuvTWVeHQf18nTtzKtsnkyw"
-      chainName: "solanatestnet"
-      standard: "SealevelHypSynthetic"
-      collateralAddressOrDenom: "3yhG9dDHVX6K1duf8znEcaJcuTiKSLYvfBD4xy6akxfu"
+      name: Luna Classic
+      symbol: LUNC
+    - addressOrDenom: HNxN3ZSBtD5J2nNF4AATMhuvTWVeHQf18nTtzKtsnkyw
+      chainName: solanatestnet
+      standard: SealevelHypSynthetic
+      collateralAddressOrDenom: 3yhG9dDHVX6K1duf8znEcaJcuTiKSLYvfBD4xy6akxfu
       connections:
-        - token: "cosmos|terraclassictestnet|terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml"
+        - token: cosmos|terraclassictestnet|terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml
       decimals: 6
-      name: "Luna Classic"
-      symbol: "LUNC"
-
+      name: Luna Classic
+      symbol: LUNC
 USTC/terraclassictestnet-solanatestnet:
   tokens:
-    - addressOrDenom: "terra1rnpvpwvqcf94keldtm2udt4tqhwthpw5cu94m443rz5ue7rvvkjq9nklml"
-      chainName: "terraclassictestnet"
-      standard: "CwHypCollateral"
-      collateralAddressOrDenom: "uusd"
+    - addressOrDenom: terra1rnpvpwvqcf94keldtm2udt4tqhwthpw5cu94m443rz5ue7rvvkjq9nklml
+      chainName: terraclassictestnet
+      standard: CwHypCollateral
+      collateralAddressOrDenom: uusd
       connections:
-        - token: "sealevel|solanatestnet|7PtxvK2AB8TmhygeWDyVjkCKvBST16QFb8j6tdSLtoha"
+        - token: sealevel|solanatestnet|7PtxvK2AB8TmhygeWDyVjkCKvBST16QFb8j6tdSLtoha
       decimals: 6
-      name: "Terra UST Classic"
-      symbol: "USTC"
-    - addressOrDenom: "7PtxvK2AB8TmhygeWDyVjkCKvBST16QFb8j6tdSLtoha"
-      chainName: "solanatestnet"
-      standard: "SealevelHypSynthetic"
+      name: Terra UST Classic
+      symbol: USTC
+    - addressOrDenom: 7PtxvK2AB8TmhygeWDyVjkCKvBST16QFb8j6tdSLtoha
+      chainName: solanatestnet
+      standard: SealevelHypSynthetic
       connections:
-        - token: "cosmos|terraclassictestnet|terra1rnpvpwvqcf94keldtm2udt4tqhwthpw5cu94m443rz5ue7rvvkjq9nklml"
+        - token: cosmos|terraclassictestnet|terra1rnpvpwvqcf94keldtm2udt4tqhwthpw5cu94m443rz5ue7rvvkjq9nklml
       decimals: 6
-      name: "Terra UST Classic"
-      symbol: "USTC"
-
+      name: Terra UST Classic
+      symbol: USTC
 JURIS/terraclassictestnet-solanatestnet-sepolia:
   tokens:
-    - addressOrDenom: "terra1stu3cl7mhtsc2mf9cputawfd6v6e4a2nkmhhphh47lsrr3j6ktdqlcfe2l"
-      chainName: "terraclassictestnet"
-      standard: "CwHypCollateral"
-      collateralAddressOrDenom: "terra1w7d0jqehn0ja3hkzsm0psk6z2hjz06lsq0nxnwkzkkq4fqwgq6tqa5te8e"
+    - addressOrDenom: terra1stu3cl7mhtsc2mf9cputawfd6v6e4a2nkmhhphh47lsrr3j6ktdqlcfe2l
+      chainName: terraclassictestnet
+      standard: CwHypCollateral
+      collateralAddressOrDenom: terra1w7d0jqehn0ja3hkzsm0psk6z2hjz06lsq0nxnwkzkkq4fqwgq6tqa5te8e
       connections:
-        - token: "sealevel|solanatestnet|G3eEYHv2GrBJ6KTS3XQhRd7QYdwnfWjisQrSVWedQK4y"
-        - token: "ethereum|sepolia|0xc2Da334D32724B97D5990229a9752a0d31087bC9"
+        - token: sealevel|solanatestnet|G3eEYHv2GrBJ6KTS3XQhRd7QYdwnfWjisQrSVWedQK4y
+        - token: ethereum|sepolia|0xc2Da334D32724B97D5990229a9752a0d31087bC9
       decimals: 6
-      name: "Juris Protocol"
-      symbol: "JURIS"
-    - addressOrDenom: "G3eEYHv2GrBJ6KTS3XQhRd7QYdwnfWjisQrSVWedQK4y"
-      chainName: "solanatestnet"
-      standard: "SealevelHypSynthetic"
+      name: Juris Protocol
+      symbol: JURIS
+    - addressOrDenom: G3eEYHv2GrBJ6KTS3XQhRd7QYdwnfWjisQrSVWedQK4y
+      chainName: solanatestnet
+      standard: SealevelHypSynthetic
       connections:
-        - token: "cosmos|terraclassictestnet|terra1stu3cl7mhtsc2mf9cputawfd6v6e4a2nkmhhphh47lsrr3j6ktdqlcfe2l"
+        - token: cosmos|terraclassictestnet|terra1stu3cl7mhtsc2mf9cputawfd6v6e4a2nkmhhphh47lsrr3j6ktdqlcfe2l
       decimals: 6
-      name: "Juris Protocol"
-      symbol: "JURIS"
+      name: Juris Protocol
+      symbol: JURIS
     - addressOrDenom: "0xc2Da334D32724B97D5990229a9752a0d31087bC9"
-      chainName: "sepolia"
-      standard: "EvmHypSynthetic"
+      chainName: sepolia
+      standard: EvmHypSynthetic
       connections:
-        - token: "cosmos|terraclassictestnet|terra1stu3cl7mhtsc2mf9cputawfd6v6e4a2nkmhhphh47lsrr3j6ktdqlcfe2l"
+        - token: cosmos|terraclassictestnet|terra1stu3cl7mhtsc2mf9cputawfd6v6e4a2nkmhhphh47lsrr3j6ktdqlcfe2l
       decimals: 6
-      name: "Juris Protocol"
-      symbol: "JURIS"
-
+      name: Juris Protocol
+      symbol: JURIS
 LUNC/terraclassic-bsc-ethereum-solanamainnet:
   tokens:
-  - addressOrDenom: terra1m7jcqxfn4hd7q4sywhw508nxshaf078c4vh83y0ts43y9tlp9dcs50cggy
-    chainName: terraclassic
-    collateralAddressOrDenom: uluna
-    connections:
-    - token: ethereum|bsc|0x481095ecEd7A907e7f390b6226F53a66D379e6e2
-    - token: ethereum|ethereum|0xA4bc47a4C5461eB0E59A585a21A1222EF7544Ac6
-    - token: sealevel|solanamainnet|Dd3ajD8WbEyx7z3HqPnDyvUgFqEBzvF1VePjYd1NGnbr
-    decimals: 6
-    logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/LUNC.svg
-    name: Luna Classic
-    standard: CwHypNative
-    symbol: LUNC
-  - addressOrDenom: '0x481095ecEd7A907e7f390b6226F53a66D379e6e2'
-    chainName: bsc
-    connections:
-    - token: cosmos|terraclassic|terra1m7jcqxfn4hd7q4sywhw508nxshaf078c4vh83y0ts43y9tlp9dcs50cggy
-    decimals: 6
-    logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/LUNC.svg
-    name: Luna Classic
-    standard: EvmHypSynthetic
-    symbol: LUNC
-  - addressOrDenom: '0xA4bc47a4C5461eB0E59A585a21A1222EF7544Ac6'
-    chainName: ethereum
-    connections:
-    - token: cosmos|terraclassic|terra1m7jcqxfn4hd7q4sywhw508nxshaf078c4vh83y0ts43y9tlp9dcs50cggy
-    decimals: 6
-    logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/LUNC.svg
-    name: Luna Classic
-    standard: EvmHypSynthetic
-    symbol: LUNC
-  - addressOrDenom: Dd3ajD8WbEyx7z3HqPnDyvUgFqEBzvF1VePjYd1NGnbr
-    chainName: solanamainnet
-    collateralAddressOrDenom: 8dxTo5reLtvRDx3Q8WEP33Uj2C5u6372EygJdNbsLFKG
-    connections:
-    - token: cosmos|terraclassic|terra1m7jcqxfn4hd7q4sywhw508nxshaf078c4vh83y0ts43y9tlp9dcs50cggy
-    decimals: 6
-    logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/LUNC.svg
-    name: Luna Classic
-    standard: SealevelHypSynthetic
-    symbol: LUNC
+    - addressOrDenom: terra1m7jcqxfn4hd7q4sywhw508nxshaf078c4vh83y0ts43y9tlp9dcs50cggy
+      chainName: terraclassic
+      collateralAddressOrDenom: uluna
+      connections:
+        - token: ethereum|bsc|0x481095ecEd7A907e7f390b6226F53a66D379e6e2
+        - token: ethereum|ethereum|0xA4bc47a4C5461eB0E59A585a21A1222EF7544Ac6
+        - token: sealevel|solanamainnet|Dd3ajD8WbEyx7z3HqPnDyvUgFqEBzvF1VePjYd1NGnbr
+      decimals: 6
+      logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/LUNC.svg
+      name: Luna Classic
+      standard: CwHypNative
+      symbol: LUNC
+    - addressOrDenom: "0x481095ecEd7A907e7f390b6226F53a66D379e6e2"
+      chainName: bsc
+      connections:
+        - token: cosmos|terraclassic|terra1m7jcqxfn4hd7q4sywhw508nxshaf078c4vh83y0ts43y9tlp9dcs50cggy
+      decimals: 6
+      logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/LUNC.svg
+      name: Luna Classic
+      standard: EvmHypSynthetic
+      symbol: LUNC
+    - addressOrDenom: "0xA4bc47a4C5461eB0E59A585a21A1222EF7544Ac6"
+      chainName: ethereum
+      connections:
+        - token: cosmos|terraclassic|terra1m7jcqxfn4hd7q4sywhw508nxshaf078c4vh83y0ts43y9tlp9dcs50cggy
+      decimals: 6
+      logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/LUNC.svg
+      name: Luna Classic
+      standard: EvmHypSynthetic
+      symbol: LUNC
+    - addressOrDenom: Dd3ajD8WbEyx7z3HqPnDyvUgFqEBzvF1VePjYd1NGnbr
+      chainName: solanamainnet
+      collateralAddressOrDenom: 8dxTo5reLtvRDx3Q8WEP33Uj2C5u6372EygJdNbsLFKG
+      connections:
+        - token: cosmos|terraclassic|terra1m7jcqxfn4hd7q4sywhw508nxshaf078c4vh83y0ts43y9tlp9dcs50cggy
+      decimals: 6
+      logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/LUNC.svg
+      name: Luna Classic
+      standard: SealevelHypSynthetic
+      symbol: LUNC
   options:
     localFeeConstants:
-    - origin: terraclassic
-      destination: bsc
-      amount: 283215
-      addressOrDenom: uluna
-    - origin: terraclassic
-      destination: ethereum
-      amount: 283215
-      addressOrDenom: uluna
-    - origin: terraclassic
-      destination: solanamainnet
-      amount: 283215
-      addressOrDenom: uluna
-
+      - origin: terraclassic
+        destination: bsc
+        amount: 283215
+        addressOrDenom: uluna
+      - origin: terraclassic
+        destination: ethereum
+        amount: 283215
+        addressOrDenom: uluna
+      - origin: terraclassic
+        destination: solanamainnet
+        amount: 283215
+        addressOrDenom: uluna
 USTC/terraclassic-bsc-ethereum-solanamainnet:
   tokens:
-  - addressOrDenom: terra1qu3x6vhk4y6w6erhmedzfp2ug53qm5nwpyarxveqa7tvwg0telxqvd3ccf
-    chainName: terraclassic
-    collateralAddressOrDenom: uusd
-    connections:
-    - token: ethereum|bsc|0xfC067fd98FD123fC2cAd72d040AF60a523274339
-    - token: ethereum|ethereum|0xf49408beb319aeCe3E8B3550a5C750C19b3F1e51
-    - token: sealevel|solanamainnet|7CUdBt1Qn2R2StE7MDPhQW2EhmnGg8zKK8oJXwAGEoyf
-    decimals: 6
-    logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/Terra/UST.svg
-    name: Terra Classic USD
-    standard: CwHypNative
-    symbol: USTC
-  - addressOrDenom: '0xfC067fd98FD123fC2cAd72d040AF60a523274339'
-    chainName: bsc
-    connections:
-    - token: cosmos|terraclassic|terra1qu3x6vhk4y6w6erhmedzfp2ug53qm5nwpyarxveqa7tvwg0telxqvd3ccf
-    decimals: 6
-    logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/Terra/UST.svg
-    name: Terra Classic USD
-    standard: EvmHypSynthetic
-    symbol: USTC
-  - addressOrDenom: '0xf49408beb319aeCe3E8B3550a5C750C19b3F1e51'
-    chainName: ethereum
-    connections:
-    - token: cosmos|terraclassic|terra1qu3x6vhk4y6w6erhmedzfp2ug53qm5nwpyarxveqa7tvwg0telxqvd3ccf
-    decimals: 6
-    logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/Terra/UST.svg
-    name: Terra Classic USD
-    standard: EvmHypSynthetic
-    symbol: USTC
-  - addressOrDenom: 7CUdBt1Qn2R2StE7MDPhQW2EhmnGg8zKK8oJXwAGEoyf
-    chainName: solanamainnet
-    collateralAddressOrDenom: GNUbsF5mrurtDzNc65HipN5Fyzzzqbj5UonLNhj9frjF
-    connections:
-    - token: cosmos|terraclassic|terra1qu3x6vhk4y6w6erhmedzfp2ug53qm5nwpyarxveqa7tvwg0telxqvd3ccf
-    decimals: 6
-    logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/Terra/UST.svg
-    name: Terra Classic USD
-    standard: SealevelHypSynthetic
-    symbol: USTC
+    - addressOrDenom: terra1qu3x6vhk4y6w6erhmedzfp2ug53qm5nwpyarxveqa7tvwg0telxqvd3ccf
+      chainName: terraclassic
+      collateralAddressOrDenom: uusd
+      connections:
+        - token: ethereum|bsc|0xfC067fd98FD123fC2cAd72d040AF60a523274339
+        - token: ethereum|ethereum|0xf49408beb319aeCe3E8B3550a5C750C19b3F1e51
+        - token: sealevel|solanamainnet|7CUdBt1Qn2R2StE7MDPhQW2EhmnGg8zKK8oJXwAGEoyf
+      decimals: 6
+      logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/Terra/UST.svg
+      name: Terra Classic USD
+      standard: CwHypNative
+      symbol: USTC
+    - addressOrDenom: "0xfC067fd98FD123fC2cAd72d040AF60a523274339"
+      chainName: bsc
+      connections:
+        - token: cosmos|terraclassic|terra1qu3x6vhk4y6w6erhmedzfp2ug53qm5nwpyarxveqa7tvwg0telxqvd3ccf
+      decimals: 6
+      logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/Terra/UST.svg
+      name: Terra Classic USD
+      standard: EvmHypSynthetic
+      symbol: USTC
+    - addressOrDenom: "0xf49408beb319aeCe3E8B3550a5C750C19b3F1e51"
+      chainName: ethereum
+      connections:
+        - token: cosmos|terraclassic|terra1qu3x6vhk4y6w6erhmedzfp2ug53qm5nwpyarxveqa7tvwg0telxqvd3ccf
+      decimals: 6
+      logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/Terra/UST.svg
+      name: Terra Classic USD
+      standard: EvmHypSynthetic
+      symbol: USTC
+    - addressOrDenom: 7CUdBt1Qn2R2StE7MDPhQW2EhmnGg8zKK8oJXwAGEoyf
+      chainName: solanamainnet
+      collateralAddressOrDenom: GNUbsF5mrurtDzNc65HipN5Fyzzzqbj5UonLNhj9frjF
+      connections:
+        - token: cosmos|terraclassic|terra1qu3x6vhk4y6w6erhmedzfp2ug53qm5nwpyarxveqa7tvwg0telxqvd3ccf
+      decimals: 6
+      logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/Terra/UST.svg
+      name: Terra Classic USD
+      standard: SealevelHypSynthetic
+      symbol: USTC
   options:
     localFeeConstants:
-    - origin: terraclassic
-      destination: bsc
-      amount: 283215
-      addressOrDenom: uluna
-    - origin: terraclassic
-      destination: ethereum
-      amount: 283215
-      addressOrDenom: uluna
-    - origin: terraclassic
-      destination: solanamainnet
-      amount: 283215
-      addressOrDenom: uluna
+      - origin: terraclassic
+        destination: bsc
+        amount: 283215
+        addressOrDenom: uluna
+      - origin: terraclassic
+        destination: ethereum
+        amount: 283215
+        addressOrDenom: uluna
+      - origin: terraclassic
+        destination: solanamainnet
+        amount: 283215
+        addressOrDenom: uluna
 JURIS/solanamainnet-terraclassic:
   options:
     interchainFeeConstants:
@@ -233,3 +230,31 @@ JURIS/solanamainnet-terraclassic:
       name: Juris Protocol
       standard: SealevelHypSynthetic
       symbol: JURIS
+XPTV/solanadevnet-terraclassictestnet:
+  options:
+    localFeeConstants:
+      - addressOrDenom: uluna
+        amount: 283215
+        destination: solanadevnet
+        origin: terraclassic
+  tokens:
+    - addressOrDenom: terra10zfk3q3tqrnqlwwp9k9uyqmq6e2l0zfxhwl3yzgx82qv4yzm3jfqr9jpxv
+      chainName: terraclassictestnet
+      collateralAddressOrDenom: terra19ujvy60tjeyehjrwlrdpqlp0gxmtt4qv452nwjqc6w6m38pm8xmq22lux3
+      connections:
+        - token: sealevel|solanadevnet|7UK6vD18weKK1q4kfK2wTEwsKqNCbAvMBvJgzWs3YXSx
+      decimals: 6
+      logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/Terra/DKT.svg
+      name: XPTV
+      standard: CwHypCollateral
+      symbol: XPTV
+    - addressOrDenom: 7UK6vD18weKK1q4kfK2wTEwsKqNCbAvMBvJgzWs3YXSx
+      chainName: solanadevnet
+      collateralAddressOrDenom: GmAcMWJpzRVKhJrQfe2tjYveXt8NEJEvqUaozT8sQhDp
+      connections:
+        - token: cosmos|terraclassictestnet|terra10zfk3q3tqrnqlwwp9k9uyqmq6e2l0zfxhwl3yzgx82qv4yzm3jfqr9jpxv
+      decimals: 6
+      logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/Terra/DKT.svg
+      name: XPTV
+      standard: SealevelHypSynthetic
+      symbol: XPTV
