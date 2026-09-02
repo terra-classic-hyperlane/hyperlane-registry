@@ -4595,6 +4595,39 @@ JUP/starknet:
       name: Jupiter
       standard: StarknetHypSynthetic
       symbol: JUP
+JURIS/solanamainnet-terraclassic:
+  options:
+    interchainFeeConstants:
+      - addressOrDenom: uluna
+        amount: 2330000000
+        destination: solanamainnet
+        origin: terraclassic
+    localFeeConstants:
+      - addressOrDenom: uluna
+        amount: 283215
+        destination: solanamainnet
+        origin: terraclassic
+  tokens:
+    - addressOrDenom: terra1dkr5hngjngneqmfrye2fuppckk34uxuxjes5pqzfu59jvncs27uszw8wj5
+      chainName: terraclassic
+      collateralAddressOrDenom: terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2
+      connections:
+        - token: sealevel|solanamainnet|8pktAA5FdXJta2V1U1xzRz5GBcpqH7gTjfFQirJTpZfm
+      decimals: 6
+      logoURI: https://raw.githubusercontent.com/JurisProtocol/assets/refs/heads/main/jurislogo-rotated-small.png
+      name: Juris Protocol
+      standard: CwHypCollateral
+      symbol: JURIS
+    - addressOrDenom: 8pktAA5FdXJta2V1U1xzRz5GBcpqH7gTjfFQirJTpZfm
+      chainName: solanamainnet
+      collateralAddressOrDenom: HmKUJLZGTyFbEUX5sDisr8PERHjJRyoAkgZwc2YsbeRr
+      connections:
+        - token: cosmos|terraclassic|terra1dkr5hngjngneqmfrye2fuppckk34uxuxjes5pqzfu59jvncs27uszw8wj5
+      decimals: 6
+      logoURI: https://raw.githubusercontent.com/JurisProtocol/assets/refs/heads/main/jurislogo-rotated-small.png
+      name: Juris Protocol
+      standard: SealevelHypSynthetic
+      symbol: JURIS
 KII/kiichain:
   tokens:
     - addressOrDenom: "0xEEC6574eAbBa52bac3f0277F2cD5Ac7e67197886"

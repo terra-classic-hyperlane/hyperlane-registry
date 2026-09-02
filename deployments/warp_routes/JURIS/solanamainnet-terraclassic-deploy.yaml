@@ -1,0 +1,13 @@
+solanamainnet:
+  decimals: 6
+  foreignDeployment: 8pktAA5FdXJta2V1U1xzRz5GBcpqH7gTjfFQirJTpZfm
+  gas: 0
+  owner: HqmBW2AMCsivVS8W7mTF6Sja7j9eR8o9Pef9BktoayDu
+  type: synthetic
+terraclassic:
+  decimals: 6
+  foreignDeployment: "0x6d874bcd129a27906d2326549e0438b5a35e1b869661408049e50b264f1057b9"
+  gas: 0
+  owner: terra1m2u2jxsh4z9jyqj8807g6cptaea6mvu50epwt8
+  token: terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2
+  type: collateral
