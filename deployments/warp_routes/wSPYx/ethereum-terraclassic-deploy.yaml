@@ -1,0 +1,18 @@
+ethereum:
+  decimals: 18
+  gas: 0
+  hook: "0x912c4d91D9eD04B16B83dA79dbe7a209c8Fd0aA8"
+  interchainSecurityModule: "0x3ba17675f0D319C89D70722f6eb07790DF0B254B"
+  name: Wrapped SP500 xStock
+  owner: "0x1275F6D455E146B548B442fFEDBBC8C9BB883572"
+  symbol: wSPYx
+  token: "0xE7E553Cd128F0011777323A0b44a7b96EA1CB540"
+  type: collateral
+terraclassic:
+  decimals: 18
+  foreignDeployment: "0xad3c885fe34ec430e8bfbc58fd01a188c071d9ec325ca2faa878c8ea42750f55"
+  gas: 0
+  name: Wrapped SP500 xStock
+  owner: terra1xsq8qlfckw2zcemrm433p9gnyt33c7lf9zjdw4
+  symbol: wSPYx
+  type: synthetic

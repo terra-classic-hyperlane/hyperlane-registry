@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=../schema.json
+options:
+  interchainFeeConstants:
+    - addressOrDenom: uluna
+      amount: 1400000000
+      destination: ethereum
+      origin: terraclassic
+  localFeeConstants:
+    - addressOrDenom: uluna
+      amount: 283215
+      destination: ethereum
+      origin: terraclassic
+tokens:
+  - addressOrDenom: "0x38bd8910dA4F55654173297b27F5D87294CFbD96"
+    chainName: ethereum
+    collateralAddressOrDenom: "0xE7E553Cd128F0011777323A0b44a7b96EA1CB540"
+    connections:
+      - token: cosmos|terraclassic|terra1457gshlrfmzrp69lh3v06qdp3rq8rk0vxfw2974g0ryw5sn4pa2s8tk0tq
+    decimals: 18
+    name: Wrapped SP500 xStock
+    standard: EvmHypCollateral
+    symbol: wSPYx
+  - addressOrDenom: terra1457gshlrfmzrp69lh3v06qdp3rq8rk0vxfw2974g0ryw5sn4pa2s8tk0tq
+    chainName: terraclassic
+    collateralAddressOrDenom: terra1wjyvzdrc7pmfemy3ycpnht83trxvccu4ecg7ek0hzf5nt49s8ssqmdldjl
+    connections:
+      - token: ethereum|ethereum|0x38bd8910dA4F55654173297b27F5D87294CFbD96
+    decimals: 18
+    name: Wrapped SP500 xStock
+    standard: CwHypSynthetic
+    symbol: wSPYx
