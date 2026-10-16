@@ -17,6 +17,7 @@ tokens:
     connections:
       - token: cosmos|terraclassic|terra1457gshlrfmzrp69lh3v06qdp3rq8rk0vxfw2974g0ryw5sn4pa2s8tk0tq
     decimals: 18
+    logoURI: https://raw.githubusercontent.com/terra-classic-hyperlane/hyperlane-registry/refs/heads/public-warp/deployments/warp_routes/wSPYx/logo.png
     name: Wrapped SP500 xStock
     standard: EvmHypCollateral
     symbol: wSPYx
@@ -26,6 +27,7 @@ tokens:
     connections:
       - token: ethereum|ethereum|0x38bd8910dA4F55654173297b27F5D87294CFbD96
     decimals: 18
+    logoURI: https://raw.githubusercontent.com/terra-classic-hyperlane/hyperlane-registry/refs/heads/public-warp/deployments/warp_routes/wSPYx/logo.png
     name: Wrapped SP500 xStock
     standard: CwHypSynthetic
     symbol: wSPYx
