@@ -1,0 +1,18 @@
+ethereum:
+  decimals: 18
+  gas: 0
+  hook: "0xDC9FF1B50d04792bf7730032F1763501D5669420"
+  interchainSecurityModule: "0x3ba17675f0D319C89D70722f6eb07790DF0B254B"
+  name: Paxos Gold
+  owner: "0x867f9CE9F0D7218b016351CB6122406E6D247a5e"
+  symbol: PAXG
+  token: "0x45804880De22913dAFE09f4980848ECE6EcbAf78"
+  type: collateral
+terraclassic:
+  decimals: 18
+  foreignDeployment: "0xb3ca5edacc594b719d3a8c48ece1dbb570acaf0841487fe7ad5540686405f6e7"
+  gas: 0
+  name: Paxos Gold
+  owner: terra1run9wz09uhh6pu7ggcwwetrgye4wu7wn26mawp
+  symbol: PAXG
+  type: synthetic

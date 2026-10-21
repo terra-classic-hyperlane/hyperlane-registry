@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=../schema.json
+# PAXG Ethereum <> Terra Classic — deployed with Warp Foundry (order cmvi6ocjn0002s2grxchj1i27)
+options:
+  localFeeConstants:
+    - addressOrDenom: uluna
+      amount: 283215
+      destination: ethereum
+      origin: terraclassic
+tokens:
+  - addressOrDenom: "0x723f21Ec446564b0F5Fe2607E7faAADaE8D35828"
+    chainName: ethereum
+    coinGeckoId: pax-gold
+    collateralAddressOrDenom: "0x45804880De22913dAFE09f4980848ECE6EcbAf78"
+    connections:
+      - token: cosmos|terraclassic|terra1k099akkvt99hr8f633ywecwmk4c2etcgg9y8lead24qxseq97mnspxzlyq
+    decimals: 18
+    logoURI: https://raw.githubusercontent.com/terra-classic-hyperlane/hyperlane-registry/refs/heads/public-warp/deployments/warp_routes/PAXG/logo.svg
+    name: Paxos Gold
+    standard: EvmHypCollateral
+    symbol: PAXG
+  - addressOrDenom: terra1k099akkvt99hr8f633ywecwmk4c2etcgg9y8lead24qxseq97mnspxzlyq
+    chainName: terraclassic
+    coinGeckoId: pax-gold
+    collateralAddressOrDenom: terra1fms2qr6cv4vt9a9j8r2yy4dtrnprywpq76v7qvrvvgpq9pjcwensphsamq
+    connections:
+      - token: ethereum|ethereum|0x723f21Ec446564b0F5Fe2607E7faAADaE8D35828
+    decimals: 18
+    logoURI: https://raw.githubusercontent.com/terra-classic-hyperlane/hyperlane-registry/refs/heads/public-warp/deployments/warp_routes/PAXG/logo.svg
+    name: Paxos Gold
+    standard: CwHypSynthetic
+    symbol: PAXG
