@@ -1,0 +1,18 @@
+ethereum:
+  decimals: 18
+  gas: 0
+  hook: "0xDC9FF1B50d04792bf7730032F1763501D5669420"
+  interchainSecurityModule: "0x3ba17675f0D319C89D70722f6eb07790DF0B254B"
+  name: Wrapped Ether
+  owner: "0x867f9CE9F0D7218b016351CB6122406E6D247a5e"
+  symbol: WETH
+  token: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+  type: collateral
+terraclassic:
+  decimals: 18
+  foreignDeployment: "0xace7df5f1df2cb7f72254737f0fdc554bd02759cfffcf971f7e88efed81881a0"
+  gas: 0
+  name: Wrapped Ether
+  owner: terra1run9wz09uhh6pu7ggcwwetrgye4wu7wn26mawp
+  symbol: WETH
+  type: synthetic

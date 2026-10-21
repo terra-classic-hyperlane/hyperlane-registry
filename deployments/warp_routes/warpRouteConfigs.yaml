@@ -331,22 +331,25 @@ WETH/ethereum-terraclassic:
         destination: ethereum
         origin: terraclassic
   tokens:
-    - addressOrDenom: terra14nna7hca7t9h7u39gumlplw92j7syavull70ju0haz80akqcsxsqp5s2kr
-      chainName: terraclassic
-      connections:
-        - token: ethereum|ethereum|0x950f1880d15724349c6d783e7bcdbf6164840558
-      decimals: 18
-      logoURI: https://s2.coinmarketcap.com/static/img/coins/64x64/2396.png
-      name: Wrapped Ether
-      standard: CwHypSynthetic
-      symbol: WETH
-    - addressOrDenom: "0x950f1880d15724349c6d783e7bcdbf6164840558"
+    - addressOrDenom: "0x950F1880d15724349C6D783e7BCDBF6164840558"
       chainName: ethereum
+      coinGeckoId: weth
+      collateralAddressOrDenom: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
       connections:
         - token: cosmos|terraclassic|terra14nna7hca7t9h7u39gumlplw92j7syavull70ju0haz80akqcsxsqp5s2kr
       decimals: 18
-      logoURI: https://s2.coinmarketcap.com/static/img/coins/64x64/2396.png
+      logoURI: "https://raw.githubusercontent.com/terra-classic-hyperlane/hyperlane-registry/refs/heads/public-warp/deployments/warp_routes/WETH/logo.svg"
       name: Wrapped Ether
       standard: EvmHypCollateral
       symbol: WETH
-      collateralAddressOrDenom: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+    - addressOrDenom: terra14nna7hca7t9h7u39gumlplw92j7syavull70ju0haz80akqcsxsqp5s2kr
+      chainName: terraclassic
+      coinGeckoId: weth
+      collateralAddressOrDenom: terra1n4xnuat70n2zagvpmt2cvwer3464mvqe8ecm64whxhj7m533mh6qkm99kq
+      connections:
+        - token: ethereum|ethereum|0x950F1880d15724349C6D783e7BCDBF6164840558
+      decimals: 18
+      logoURI: "https://raw.githubusercontent.com/terra-classic-hyperlane/hyperlane-registry/refs/heads/public-warp/deployments/warp_routes/WETH/logo.svg"
+      name: Wrapped Ether
+      standard: CwHypSynthetic
+      symbol: WETH
