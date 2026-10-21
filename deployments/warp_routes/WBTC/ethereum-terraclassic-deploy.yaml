@@ -1,0 +1,18 @@
+ethereum:
+  decimals: 8
+  gas: 0
+  hook: "0xDC9FF1B50d04792bf7730032F1763501D5669420"
+  interchainSecurityModule: "0x3ba17675f0D319C89D70722f6eb07790DF0B254B"
+  name: Wrapped BTC
+  owner: "0x867f9CE9F0D7218b016351CB6122406E6D247a5e"
+  symbol: WBTC
+  token: "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+  type: collateral
+terraclassic:
+  decimals: 8
+  foreignDeployment: "0x46429869b4b075c6041171e1aa4e2917bcbe6322c974a767f47ac53ccc152e2d"
+  gas: 0
+  name: Wrapped BTC
+  owner: terra1run9wz09uhh6pu7ggcwwetrgye4wu7wn26mawp
+  symbol: WBTC
+  type: synthetic

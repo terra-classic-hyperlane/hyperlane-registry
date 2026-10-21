@@ -266,3 +266,33 @@ wSPYx/ethereum-terraclassic:
       name: Wrapped SP500 xStock
       standard: CwHypSynthetic
       symbol: wSPYx
+WBTC/ethereum-terraclassic:
+  options:
+    localFeeConstants:
+      - addressOrDenom: uluna
+        amount: 283215
+        destination: ethereum
+        origin: terraclassic
+  tokens:
+    - addressOrDenom: "0xA1cEAF411185de1D532beDBC7C1206A8EA52786f"
+      chainName: ethereum
+      coinGeckoId: wrapped-bitcoin
+      collateralAddressOrDenom: "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+      connections:
+        - token: cosmos|terraclassic|terra1gepfs6d5kp6uvpq3w8s65n3fz77tuceze962wel50tznenq49ckssgt4s7
+      decimals: 8
+      logoURI: "https://raw.githubusercontent.com/terra-classic-hyperlane/hyperlane-registry/refs/heads/public-warp/deployments/warp_routes/WBTC/logo.svg"
+      name: Wrapped BTC
+      standard: EvmHypCollateral
+      symbol: WBTC
+    - addressOrDenom: terra1gepfs6d5kp6uvpq3w8s65n3fz77tuceze962wel50tznenq49ckssgt4s7
+      chainName: terraclassic
+      coinGeckoId: wrapped-bitcoin
+      collateralAddressOrDenom: terra1g9ql8lpsk755a8txv05lwhtw3h4q63dnvfp2eq80usqvgrhlnpfs6za8p8
+      connections:
+        - token: ethereum|ethereum|0xA1cEAF411185de1D532beDBC7C1206A8EA52786f
+      decimals: 8
+      logoURI: "https://raw.githubusercontent.com/terra-classic-hyperlane/hyperlane-registry/refs/heads/public-warp/deployments/warp_routes/WBTC/logo.svg"
+      name: Wrapped BTC
+      standard: CwHypSynthetic
+      symbol: WBTC
