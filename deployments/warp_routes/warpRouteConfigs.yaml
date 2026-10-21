@@ -19,6 +19,7 @@ LUNC/terraclassictestnet-bsctestnet-sepolia-solanatestnet:
       connections:
         - token: cosmos|terraclassictestnet|terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml
       decimals: 6
+      logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/LUNC.svg
       name: Luna Classic
       symbol: LUNC
     - addressOrDenom: "0x224a4419D7FA69D3bEbAbce574c7c84B48D829b4"
@@ -27,6 +28,7 @@ LUNC/terraclassictestnet-bsctestnet-sepolia-solanatestnet:
       connections:
         - token: cosmos|terraclassictestnet|terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml
       decimals: 6
+      logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/LUNC.svg
       name: Luna Classic
       symbol: LUNC
     - addressOrDenom: HNxN3ZSBtD5J2nNF4AATMhuvTWVeHQf18nTtzKtsnkyw
@@ -36,6 +38,7 @@ LUNC/terraclassictestnet-bsctestnet-sepolia-solanatestnet:
       connections:
         - token: cosmos|terraclassictestnet|terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml
       decimals: 6
+      logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/LUNC.svg
       name: Luna Classic
       symbol: LUNC
 USTC/terraclassictestnet-solanatestnet:
@@ -47,6 +50,7 @@ USTC/terraclassictestnet-solanatestnet:
       connections:
         - token: sealevel|solanatestnet|7PtxvK2AB8TmhygeWDyVjkCKvBST16QFb8j6tdSLtoha
       decimals: 6
+      logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/Terra/UST.svg
       name: Terra UST Classic
       symbol: USTC
     - addressOrDenom: 7PtxvK2AB8TmhygeWDyVjkCKvBST16QFb8j6tdSLtoha
@@ -55,6 +59,7 @@ USTC/terraclassictestnet-solanatestnet:
       connections:
         - token: cosmos|terraclassictestnet|terra1rnpvpwvqcf94keldtm2udt4tqhwthpw5cu94m443rz5ue7rvvkjq9nklml
       decimals: 6
+      logoURI: https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/Terra/UST.svg
       name: Terra UST Classic
       symbol: USTC
 JURIS/terraclassictestnet-solanatestnet-sepolia:
@@ -67,6 +72,7 @@ JURIS/terraclassictestnet-solanatestnet-sepolia:
         - token: sealevel|solanatestnet|G3eEYHv2GrBJ6KTS3XQhRd7QYdwnfWjisQrSVWedQK4y
         - token: ethereum|sepolia|0xc2Da334D32724B97D5990229a9752a0d31087bC9
       decimals: 6
+      logoURI: https://raw.githubusercontent.com/JurisProtocol/assets/refs/heads/main/jurislogo-rotated-small.png
       name: Juris Protocol
       symbol: JURIS
     - addressOrDenom: G3eEYHv2GrBJ6KTS3XQhRd7QYdwnfWjisQrSVWedQK4y
@@ -75,6 +81,7 @@ JURIS/terraclassictestnet-solanatestnet-sepolia:
       connections:
         - token: cosmos|terraclassictestnet|terra1stu3cl7mhtsc2mf9cputawfd6v6e4a2nkmhhphh47lsrr3j6ktdqlcfe2l
       decimals: 6
+      logoURI: https://raw.githubusercontent.com/JurisProtocol/assets/refs/heads/main/jurislogo-rotated-small.png
       name: Juris Protocol
       symbol: JURIS
     - addressOrDenom: "0xc2Da334D32724B97D5990229a9752a0d31087bC9"
@@ -83,6 +90,7 @@ JURIS/terraclassictestnet-solanatestnet-sepolia:
       connections:
         - token: cosmos|terraclassictestnet|terra1stu3cl7mhtsc2mf9cputawfd6v6e4a2nkmhhphh47lsrr3j6ktdqlcfe2l
       decimals: 6
+      logoURI: https://raw.githubusercontent.com/JurisProtocol/assets/refs/heads/main/jurislogo-rotated-small.png
       name: Juris Protocol
       symbol: JURIS
 LUNC/terraclassic-bsc-ethereum-solanamainnet:
