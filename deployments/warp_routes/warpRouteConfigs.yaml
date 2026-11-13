@@ -346,7 +346,7 @@ WETH/ethereum-terraclassic:
       connections:
         - token: cosmos|terraclassic|terra14nna7hca7t9h7u39gumlplw92j7syavull70ju0haz80akqcsxsqp5s2kr
       decimals: 18
-      logoURI: "https://raw.githubusercontent.com/terra-classic-hyperlane/hyperlane-registry/refs/heads/public-warp/deployments/warp_routes/WETH/logo.svg"
+      logoURI: https://raw.githubusercontent.com/terra-classic-hyperlane/hyperlane-registry/refs/heads/public-warp/deployments/warp_routes/WETH/logo.svg
       name: Wrapped Ether
       standard: EvmHypCollateral
       symbol: WETH
@@ -357,7 +357,34 @@ WETH/ethereum-terraclassic:
       connections:
         - token: ethereum|ethereum|0x950F1880d15724349C6D783e7BCDBF6164840558
       decimals: 18
-      logoURI: "https://raw.githubusercontent.com/terra-classic-hyperlane/hyperlane-registry/refs/heads/public-warp/deployments/warp_routes/WETH/logo.svg"
+      logoURI: https://raw.githubusercontent.com/terra-classic-hyperlane/hyperlane-registry/refs/heads/public-warp/deployments/warp_routes/WETH/logo.svg
       name: Wrapped Ether
       standard: CwHypSynthetic
       symbol: WETH
+LTK/bsc-terraclassic:
+  options:
+    localFeeConstants:
+      - addressOrDenom: uluna
+        amount: 283215
+        destination: bsc
+        origin: terraclassic
+  tokens:
+    - addressOrDenom: terra1r6hu8zga7gsrcn37m794jhx5upu8m6cldj9ey32m3f74z4y426qsugs4dr
+      chainName: terraclassic
+      connections:
+        - token: ethereum|bsc|0xfca4f949b1e4b63b9f0b0139cfac3bf208ee10a8
+      decimals: 6
+      logoURI: https://www.lunctoken.org/logo_ltk_lunctoken_256x256.png
+      name: Lunctoken
+      standard: CwHypCollateral
+      symbol: LTK
+      collateralAddressOrDenom: terra1mm8tdp40r2slzwqxk8jsz66ayc4zp69muxeateq37x2xquttzsaqy7275a
+    - addressOrDenom: "0xfca4f949b1e4b63b9f0b0139cfac3bf208ee10a8"
+      chainName: bsc
+      connections:
+        - token: cosmos|terraclassic|terra1r6hu8zga7gsrcn37m794jhx5upu8m6cldj9ey32m3f74z4y426qsugs4dr
+      decimals: 6
+      logoURI: https://www.lunctoken.org/logo_ltk_lunctoken_256x256.png
+      name: Lunctoken
+      standard: EvmHypSynthetic
+      symbol: LTK
